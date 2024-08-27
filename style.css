@@ -1,0 +1,82 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./background-image.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment:fixed ;
+  margin: 0;
+}
+
+#myh1{
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color:hsl(231, 80%, 16%);
+  border: none;
+  border-radius: 10%;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.679);
+}
+
+#container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0%, 100%, 0.1);
+  border: none;
+  border-radius: 10%;
+   
+   width: 100%;
+}
+
+#display{
+  font-family: monospace;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color:hsl(231, 80%, 16%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.679);
+}
+
+#controls button{
+  font-size: 1.5rem;
+  height: 3.5rem;
+  width: 7.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  color:black;
+
+}
+#startBtn{
+  background-color:hsl(230, 66%, 25%);
+  box-shadow: 5px 5px 10px #6a6f83, -5px -5px 10px #7c6f6f;
+}
+
+#stopBtn{
+  background-color:hsl(230, 66%, 25%);
+  box-shadow: 5px 5px 10px #6a6f83, -5px -5px 10px #7c6f6f;
+}
+
+#resetBtn{
+  background-color:hsl(230, 66%, 25%);
+  box-shadow: 5px 5px 10px #6a6f83, -5px -5px 10px #7c6f6f;
+}
+
+
+#controls button:hover{
+  cursor: pointer;
+  background-color:hsl(230, 86%, 25%);
+}
+
+#controls button:active{
+  cursor: pointer;
+  background-color:hsl(230, 56%, 25%);
+}
